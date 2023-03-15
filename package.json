@@ -1,0 +1,29 @@
+{
+  "name": "group-information-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "Library": "Library",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest --verbose test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elmerherrera/group-information-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elmerherrera/group-information-generator/issues"
+  },
+  "homepage": "https://github.com/elmerherrera/group-information-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "29.5.0"
+  }
+}
