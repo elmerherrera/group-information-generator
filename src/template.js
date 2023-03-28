@@ -14,7 +14,7 @@ team.forEach(employee => {
       
       html += `
         <div class="card employee-card">
-          <div class="card-header bg-primary text-white">
+          <div class="card-header bs-dark-bg-subtle text-white">
             <h2 class="card-title">${employee.getName()}</h2>
             <h3 class="card-title"><i class="${getIcon(employee.getRole())} mr-2"></i>${employee.getRole()}</h3>
           </div>
